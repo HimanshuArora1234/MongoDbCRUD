@@ -11,7 +11,7 @@ For installation of MongoDB server: https://www.mongodb.com/download-center#comm
 
 ## MongoDB replication 
 
-![Rep](replication.jpg)
+![Rep](replication.JPG)
 
 ## Run
 
