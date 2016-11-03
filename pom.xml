@@ -13,6 +13,18 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <build>
+      <plugins>
+         <plugin>
+	        <groupId>org.codehaus.mojo</groupId>
+	        <artifactId>exec-maven-plugin</artifactId>
+	        <configuration>
+	             <mainClass>fr.him.mongoSample.App</mainClass>
+	        </configuration>
+        </plugin>
+      </plugins>
+   </build> 
 
   <dependencies>
     <dependency>
